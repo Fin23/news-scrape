@@ -1,0 +1,109 @@
+body{ 
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color:#ff7b7b;
+    /* font-family:'Press Start 2P', cursive; */
+  }
+  .bg-light{
+      background-color:#6ec2b1 !important;
+  }
+  
+  .jumbotron {
+    font-family: serif;
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:url("./images/banner1.jpg");
+  }
+  
+  
+  h1 {
+    /* font-family: 'Playfair Display', serif; */
+    font-family:'Press Start 2P', cursive;
+  }
+  
+  h2, h3 {
+    /* font-family: 'Liu Jian Mao Cao', cursive; */
+    font-family:'Press Start 2P', cursive;
+  }
+  
+  button {
+    color: #FF69B4;
+    border-radius: 5px;
+    background-color: #FF69B4;
+    margin-top: 5px;
+  }
+  .btn-success{
+      background-color:#6ec2b1 ;
+      
+      border: 2px solid;
+      font-size:1em;
+      color:black !important;
+
+  }
+  
+  #articles {
+    height: 700px;
+    
+  }
+  p{
+    border:#6ec2b1 solid;
+    padding:5px;
+    
+  }
+  
+  #notes {
+    font-family: serif;
+  }
+  
+  textarea, input {
+    display: block;
+    width: 100%;
+    background-color: #FCF5C7;
+  }
+  
+  input {
+    height: 36px;
+    font-size: 24px;
+  }
+  
+  textarea {
+    height: 200px;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+   color:black;
+    font-size:11px;
+  }
+  
+  a:hover {
+    color: seagreen;
+  }
+  
+  .footer {
+    padding: 1vh 0;
+    text-align: center;
+    background: #000;
+    color: #FFF;
+  }
+  
+  #myBtn {
+    position: fixed;
+    bottom: 1rem;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 60px;
+    border: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    background-color:#6ec2b1 ;
+   
+    padding: .5px;
+    color: white;
+    border-radius: 5px;
+  
+  }
